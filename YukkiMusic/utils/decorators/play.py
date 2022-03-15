@@ -27,12 +27,12 @@ def PlayWrapper(command):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    "Bot is under maintenance. Please wait for some time..."
+                    "Bot is under maintenance.Enjoy chatting @World_friends_chatting_group"
                 )
         if PRIVATE_BOT_MODE == str(True):
             if not await is_served_private_chat(message.chat.id):
                 await message.reply_text(
-                    "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
+                    "**𝙋𝙧𝙞𝙫𝙖𝙩𝙚 𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩**\n\n𝙊𝙣𝙡𝙮 𝙛𝙤𝙧 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙘𝙝𝙖𝙩𝙨 𝙛𝙧𝙤𝙢 𝙩𝙝𝙚 𝙤𝙬𝙣𝙚𝙧. 𝘼𝙨𝙠 𝙢𝙮 𝙤𝙬𝙣𝙚𝙧 𝙩𝙤 𝙖𝙡𝙡𝙤𝙬 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩 𝙛𝙞𝙧𝙨𝙩."
                 )
                 return await app.leave_chat(message.chat.id)
         if await is_commanddelete_on(message.chat.id):
@@ -78,7 +78,7 @@ def PlayWrapper(command):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How to Fix this? ",
+                            text="❰𝙃𝙤𝙬 𝙩𝙤 𝙁𝙞𝙭 𝙩𝙝𝙞𝙨❓❱ ",
                             callback_data="AnonymousAdmin",
                         ),
                     ]
