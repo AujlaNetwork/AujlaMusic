@@ -1,12 +1,12 @@
 name : English
 
 # General Strings
-general_1 : "Reply to a user's message or give username/user_id."
-general_2 : "Error! Wrong Usage of Command."
-general_3 : "Some **exception occured** while processing your query.\n\nException Type:- {0}"
-general_4 : "You're an anonymous admin in this chat group!\nRevert back to User Account From Admin Rights."
-general_5 : "You need to be admin with manage voice chat rights to perform this action."
-general_6 : "Bot isn't streaming on voice chat."
+general_1 : "𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐚 𝐮𝐬𝐞𝐫'𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐨𝐫 𝐠𝐢𝐯𝐞 𝐮𝐬𝐞𝐫𝐧𝐚𝐦𝐞/user_id."
+general_2 : "𝐄𝐫𝐫𝐨𝐫! 𝐖𝐫𝐨𝐧𝐠 𝐔𝐬𝐚𝐠𝐞 𝐨𝐟 𝐂𝐨𝐦𝐦𝐚𝐧𝐝."
+general_3 : "𝐒𝐨𝐦𝐞 𝐞𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐨𝐜𝐜𝐮𝐫𝐞𝐝 𝐰𝐡𝐢𝐥𝐞 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐫𝐲.\n𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:- {0}"
+general_4 : "𝐘𝐨𝐮'𝐫𝐞 𝐚𝐧 𝐚𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𝐚𝐝𝐦𝐢𝐧 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐜𝐡𝐚𝐭 𝐠𝐫𝐨𝐮𝐩!\𝐧𝐑𝐞𝐯𝐞𝐫𝐭 𝐛𝐚𝐜𝐤 𝐭𝐨 𝐔𝐬𝐞𝐫 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐅𝐫𝐨𝐦 𝐀𝐝𝐦𝐢𝐧 𝐑𝐢𝐠𝐡𝐭𝐬."
+general_5 : "𝐘𝐨𝐮 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐛𝐞 𝐚𝐝𝐦𝐢𝐧 𝐰𝐢𝐭𝐡 𝐦𝐚𝐧𝐚𝐠𝐞 𝐯𝐨𝐢𝐜𝐞 𝐜𝐡𝐚𝐭 𝐫𝐢𝐠𝐡𝐭𝐬 𝐭𝐨 𝐩𝐞𝐫𝐟𝐨𝐫𝐦 𝐭𝐡𝐢𝐬 𝐚𝐜𝐭𝐢𝐨𝐧."
+general_6 : "𝐁𝐨𝐭 𝐢𝐬𝐧'𝐭 𝐬𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐨𝐧 𝐯𝐨𝐢𝐜𝐞 𝐜𝐡𝐚𝐭."
 
 # Classes - Telegram.py
 tg_1 : "Bot is **overloaded** with downloads right now.\n\n**Try After:** {0} (__expected time__)"
