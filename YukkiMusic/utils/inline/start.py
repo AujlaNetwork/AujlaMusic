@@ -18,14 +18,42 @@ from YukkiMusic import app
 def start_pannel(_):
     buttons = [
         [
-            InlineKeyboardButton(
-                text=_["S_B_1"],
-                url=f"https://t.me/{app.username}?start=help",
-            ),
-            InlineKeyboardButton(
-                text=_["S_B_2"], callback_data="settings_helper"
-            ),
-        ],
+
+                    InlineKeyboardButton(
+
+                        "❰➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕❱",
+
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+
+                    )
+
+                ],
+
+                [InlineKeyboardButton("❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", url=f"https://telegra.ph/Commands-01-10-2")],
+
+                
+
+
+
+
+
+
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/World_friends_chatting_group"
+
+                    ),
+
+                    InlineKeyboardButton(
+
+                        "❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
+
+                    ),
+
+                ],
     ]
     
     return buttons
@@ -33,11 +61,43 @@ def start_pannel(_):
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
-        [
-            InlineKeyboardButton(
-                text=_["S_B_8"], callback_data="settings_back_helper"
-            )
-        ]
+       [
+
+                    InlineKeyboardButton(
+
+                        "❰➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕❱",
+
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+
+                    )
+
+                ],
+
+                [InlineKeyboardButton("❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", url=f"https://telegra.ph/Commands-01-10-2")],
+
+                
+
+
+
+
+
+
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/World_friends_chatting_group"
+
+                    ),
+
+                    InlineKeyboardButton(
+
+                        "❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
+
+                    ),
+
+                ],
     ]
     
     return buttons
