@@ -23,15 +23,15 @@ This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls
 * The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
 * The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
 
-For more information on the technologies that power the Yukki Music Bot, check out the [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/).
+For more information on the technologies that power the Ehsaas Music Bot, check out the [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/).
 
 
 
 # ⚡️ Getting Started
 
-### Before deploying Yukki Music Bot , please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
+### Before deploying Ehsaas Music Bot , please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
 
-> If you want to start working with Yukki Music Bot you can either fork or import repo .
+> If you want to start working with Ehsaas Music Bot you can either fork or import repo .
 > The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
 > If you'd like to talk to us, join us on our [Telegram Group](https://t.me/YukkiSupport)
 
@@ -56,7 +56,7 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 ## 🚀 Heroku Deployment
 
-<h4>Click the button below to deploy Yukki on Heroku!</h4>    
+<h4>Click the button below to deploy Ehsaas on Heroku!</h4>    
 <a href="https://yukki.tech/deploy/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
 > Want detailed explanation of Heroku Deployment? [Click Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/heroku)
@@ -95,7 +95,7 @@ Reach out to the maintainer at one of the following places:
 
 ## 🎗 Project assistance
 
-If you want to say **thank you** or/and support active development of YukkiMusicBot:
+If you want to say **thank you** or/and support active development of EhsaasMusicBot:
 
 - Add a [GitHub Star](https://github.com/TeamYukki/YukkiMusicBot) to the project.
 - Fork the Repo :)
@@ -104,7 +104,7 @@ If you want to say **thank you** or/and support active development of YukkiMusic
 PS: You can buy me a coffee too :)
 <p><a href="https://www.buymeacoffee.com/notreallysy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
 
-Together, we can make YukkiMusicBot **better**!
+Together, we can make EhsaasMusicBot **better**!
 
 ## ✍🏻 Contributing
 
