@@ -99,9 +99,5 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
 
                 ],
     ]
-    ),
-
-        disable_web_page_preview=True,
-    )
-    
+  
     return buttons
