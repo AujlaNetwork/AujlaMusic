@@ -98,7 +98,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     ),
 
                 ],
-        [InlineKeyboardButton("❰𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settings_helperr")],
+        [InlineKeyboardButton("❰🏳️‍🌈 𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚❱", callback_data="LG")],
     ]
   
     return buttons
