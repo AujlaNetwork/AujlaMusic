@@ -17,17 +17,7 @@ from YukkiMusic import app
 
 def start_pannel(_):
     buttons = [
-        [
-
-                    InlineKeyboardButton(
-
-                        "❰➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕❱",
-
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-
-                    )
-
-                ],
+        
 
                 [InlineKeyboardButton("❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", url=f"https://telegra.ph/Ehsaas-Music-commands-03-17")],
 
