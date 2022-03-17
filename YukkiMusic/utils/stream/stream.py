@@ -11,7 +11,7 @@ import os
 from random import randint
 from typing import Union
 
-from pyrogram.types import InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
 from YukkiMusic import Carbon, YouTube, app
@@ -172,7 +172,48 @@ async def stream(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
-                ),
+                ), #fuck off
+              buttons = [
+        [
+
+                    InlineKeyboardButton(
+
+                        "❰➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕❱",
+
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+
+                    )
+
+                ],
+
+                [InlineKeyboardButton("❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", url=f"https://telegra.ph/Ehsaas-Music-commands-03-17")],
+
+                
+
+
+
+
+
+
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/World_friends_chatting_group"
+
+                    ),
+
+                    InlineKeyboardButton(
+
+                        "❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
+
+                    ),
+
+                ],
+    ]
+           #fuck off   
+              
             )
         else:
             if not forceplay:
