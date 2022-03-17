@@ -73,7 +73,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
 
                 ],
 
-                [InlineKeyboardButton("❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", url=f"https://telegra.ph/Commands-01-10-2")],
+                [InlineKeyboardButton("❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", url=f"https://telegra.ph/Ehsaas-Music-commands-03-17")],
 
                 
 
