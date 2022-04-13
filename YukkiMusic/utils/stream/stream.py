@@ -11,7 +11,7 @@ import os
 from random import randint
 from typing import Union
 
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from YukkiMusic import Carbon, YouTube, app
@@ -172,23 +172,7 @@ async def stream(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
-                ), #fuck off
-                        reply_markup=InlineKeyboardMarkup(
-            [
-                
-                [
-                    InlineKeyboardButton(
-                        "❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/World_friends_chatting_group"
-                    ),
-                    InlineKeyboardButton(
-                        "❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
-                    ),
-                ],
-                
-            ]
-        ),
-           #fuck off   
-              
+                ),
             )
         else:
             if not forceplay:
@@ -408,7 +392,10 @@ async def stream(
             if not forceplay:
                 db[chat_id] = []
             await Yukki.join_call(
-                chat_id, original_chat_id, link, video=True if video else None
+                chat_id,
+                original_chat_id,
+                link,
+                video=True if video else None,
             )
             await put_queue_index(
                 chat_id,
