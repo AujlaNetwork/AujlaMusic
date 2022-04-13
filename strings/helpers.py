@@ -18,7 +18,8 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 /skip or /cskip- Skip the current playing music.
 /stop or /cstop- Stop the playing music.
 /shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Seek the music to your duration
+/seek or /cseek - Forward Seek the music to your duration
+/seekback or /cseekback - Backward Seek the music to your duration
 /restart - Restart bot for your chat .
 
 
@@ -65,7 +66,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 /stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
 
-/sudolist - Check Sudo Users of Ehsaas Music Bot
+/sudolist - Check Sudo Users of Yukki Music Bot
 
 /lyrics [Music Name] - Searches Lyrics for the particular Music on web.
 
@@ -128,6 +129,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /maintenance [enable / disable] 
 /logger [enable / disable] - Bot logs the searched queries in logger group.
 /get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
+/autoend [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
 
 📈**<u>STATS COMMANDS:</u>**
 /activevoice - Check active voice chats on bot.
