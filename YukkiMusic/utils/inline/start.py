@@ -33,13 +33,13 @@ def start_pannel(_):
 
                     InlineKeyboardButton(
 
-                        "💁🅖ℝ𝕆𝕌ℙ🤺", url=f"https://t.me/Urban_Chat_Group"
+                        "💁🅖ℝ𝕆𝕌ℙ🤺", url=f"https://t.me/Lions_OF_Punjab"
 
                     ),
 
                     InlineKeyboardButton(
 
-                        "❤️🅾🆆🅽🅴🆁🤍", url=f"https://t.me/PB_65_Aujla"
+                        "❤️🅾🆆🅽🅴🆁🤍", url=f"https://t.me/Aujla_PB_65"
 
                     ),
 
@@ -77,13 +77,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
 
                     InlineKeyboardButton(
 
-                        "💁🅖ℝ📀𝕌ℙ🤺", url=f"https://t.me/Urban_Chat_Group"
+                        "💁🅖ℝ📀𝕌ℙ🤺", url=f"https://t.me/Lions_OF_Punjab"
 
                     ),
 
                     InlineKeyboardButton(
 
-                        "🎥🅢𝕥𝕒𝕥𝕦𝕤🖥", url=f"https://t.me/Punjabi_Status_Mania"
+                        "❤️🅾🆆🅽🅴🆁🤍", url=f"https://t.me/Aujla_PB_65"
 
                     ),
 
