@@ -35,10 +35,10 @@ def queue_markup(
     dur = [
           [
                 InlineKeyboardButton(
-                    text="💁🅖ℝ📀𝕌ℙ🤺", url=f"https://t.me/Urban_Chat_Group"
+                    text="💁🅖ℝ📀𝕌ℙ🤺", url=f"https://t.me/Lions_OF_Punjab"
                 ),
                 InlineKeyboardButton(
-                    text="🎥🅢𝕥𝕒𝕥𝕦𝕤🖥", url=f"https://t.me/Punjabi_Status_Mania"
+                    text="❤️🅾🆆🅽🅴🆁🤍", url=f"https://t.me/Aujla_PB_65"
                 ),
             ],
         [
